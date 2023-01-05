@@ -22,13 +22,13 @@ components:
       - name: ZCON_DESIGNER_PROJECT
         value: /projects/employees-api/start
       - name: DB2_HOST
-        value: cap-us-east-prd-sg-bm-01.securegateway.appdomain.cloud
+        value: "cap-us-east-prd-sg-bm-01.securegateway.appdomain.cloud"
       - name: DB2_PORT
-        value: 15428
+        value: "15428"
       - name: DB2_USERNAME
-        value: xxxxxxxxxx
+        value: "xxxxxxxxx"
       - name: DB2_PASSWORD
-        value: ########
+        value: "########"
     memoryLimit: 4927M
     type: dockerimage
     image: 'icr.io/zosconnect/ibm-zcon-designer:3.0.58'
