@@ -22,9 +22,9 @@ components:
       - name: ZCON_DESIGNER_PROJECT
         value: /projects/employees-api/start
       - name: DB2_HOST
-        value: "cap-us-east-prd-sg-bm-01.securegateway.appdomain.cloud"
+        value: "xxxxxxxx"
       - name: DB2_PORT
-        value: "15428"
+        value: "########"
       - name: DB2_USERNAME
         value: "xxxxxxxxx"
       - name: DB2_PASSWORD
