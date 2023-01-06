@@ -6,7 +6,8 @@ The `start` project can be enhanced to allow users to create, read, update, and 
 
 ## Configuration
 To be able to connect to the Db2 instance in which you have the target db2 service/stored procedure installed, a file named `db2.xml` has been placed in the directory `./src/main/liberty/config`. 
-You will need to edit the devfile.yaml to add your credentials for accessing the database.  Replace "tsoidhere" with your tso id and "passwordhere" with your password
+
+You will need to edit the `devfile.yaml` to add your credentials for accessing the database.  Replace "tsoidhere" with your tso id and "passwordhere" with your password
 ```
       - name: DB2_USERNAME
         value: "tsoidhere"
@@ -16,7 +17,7 @@ You will need to edit the devfile.yaml to add your credentials for accessing the
 
 The variables (e.g. `${DB2_USERNAME}`) values must be provided as environment variables when the designer image is started. The provided environment variable values will then be substituted in when the connection is used.
 
-Optionally, you can edit the devfile.yaml to reflect the name of the api you are creating.  Replace "sample-db2-api" and "stub-db2-api" with the desired name(s).
+Optionally, you can edit the `devfile.yaml` file to reflect the name of the api you are creating.  Replace "sample-db2-api" and "stub-db2-api" with the desired name(s).
 (Lines 3, 5 and 23)
 ```
 metadata:
