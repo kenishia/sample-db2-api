@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  name: sample-db2-api
+  name: employees-db2-api
 projects:
   - name: employees-api
     source:
